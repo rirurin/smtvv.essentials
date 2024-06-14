@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smtvv.essentials", "smtvv.essentials\smtvv.essentials.csproj", "{0AF82410-B3D6-4863-A1C8-1E87451480FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AF82410-B3D6-4863-A1C8-1E87451480FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF82410-B3D6-4863-A1C8-1E87451480FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF82410-B3D6-4863-A1C8-1E87451480FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF82410-B3D6-4863-A1C8-1E87451480FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {771F863B-3726-482B-8C57-A7B0D70D7273}
+	EndGlobalSection
+EndGlobal

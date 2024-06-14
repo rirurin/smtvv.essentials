@@ -1,0 +1,21 @@
+{
+  "ModId": "smtvv.essentials",
+  "ModName": "SMTVV Essentials",
+  "ModAuthor": "Rirurin",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Patches for Shin Megami Tensei V: Vengeance",
+  "ModDll": "smtvv.essentials.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/smtvv.essentials.dll",
+  "ModR2RManagedDll64": "x64/smtvv.essentials.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "smtvv.essentials.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [],
+  "ProjectUrl": ""
+}
