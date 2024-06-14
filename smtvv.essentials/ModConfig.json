@@ -14,8 +14,15 @@
   "ReleaseMetadataFileName": "smtvv.essentials.ReleaseMetadata.json",
   "PluginData": {},
   "IsUniversalMod": false,
-  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "SharedScans.Reloaded",
+    "UnrealEssentials"
+  ],
   "OptionalDependencies": [],
-  "SupportedAppId": [],
+  "SupportedAppId": [
+    "smt5v-win64-shipping.exe"
+  ],
   "ProjectUrl": ""
 }
