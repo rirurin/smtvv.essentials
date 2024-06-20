@@ -16,6 +16,11 @@ namespace smtvv.essentials.Configuration
         [Description("Skip to the main menu")]
         [DefaultValue(true)]
         public bool IntroSkip { get; set; } = true;
+
+        [DisplayName("Force 4k Movies")]
+        [Description("Forces 4k pre-rendered movies regardless of target resolution.")]
+        [DefaultValue(false)]
+        public bool Force4kMovies { get; set; } = false;
     }
 
     /// <summary>

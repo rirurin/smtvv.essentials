@@ -45,6 +45,7 @@ namespace smtvv.essentials
             _runtime = new(_context);
             _runtime.AddModule<IntroSkip>();
             _runtime.AddModule<NoPause>();
+            _runtime.AddModule<Force4kMovies>();
             _runtime.RegisterModules();
         }
 
