@@ -2,7 +2,7 @@
   "ModId": "smtvv.essentials",
   "ModName": "SMTVV Essentials",
   "ModAuthor": "Rirurin",
-  "ModVersion": "1.1.0",
+  "ModVersion": "1.1.1",
   "ModDescription": "Patches for Shin Megami Tensei V: Vengeance",
   "ModDll": "smtvv.essentials.dll",
   "ModIcon": "Preview.png",
@@ -43,6 +43,15 @@
             "AssetFileName": "reloaded.sharedlib.hooks.zip"
           },
           "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        },
+        "SharedScans.Reloaded": {
+          "Config": {
+            "UserName": "T-PoseRatkechi",
+            "RepositoryName": "SharedScans",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "SharedScans.Reloaded.ReleaseMetadata.json"
         },
         "UnrealEssentials": {
           "Config": {
