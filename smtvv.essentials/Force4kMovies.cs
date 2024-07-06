@@ -1,6 +1,8 @@
 ﻿using Reloaded.Hooks.Definitions;
 using Reloaded.Memory.SigScan.ReloadedII.Interfaces;
+using Reloaded.Mod.Interfaces;
 using riri.commonmodutils;
+using smtvv.essentials.Configuration;
 
 namespace smtvv.essentials
 {
@@ -14,10 +16,14 @@ namespace smtvv.essentials
         private static IReloadedHooks _hooks = null!;
         private IStartupScanner _scanner;
 
+        private static bool bForce4kMovies;
+
         public unsafe Force4kMovies(EssentialContext context, Dictionary<string, ModuleBase<EssentialContext>> modules) : base(context, modules)
         {
+            bForce4kMovies = _context._config.Force4kMovies;
             _hooks = _context._hooks;
-            _context._utils.SigScan(UEventFunctionLibrary__execIsOriginalMovieResolution_SIG, "UEventFunctionLibrary::execIsOriginalMovieResolution", _context._utils.GetDirectAddress,
+
+            if (bForce4kMovies) _context._utils.SigScan(UEventFunctionLibrary__execIsOriginalMovieResolution_SIG, "UEventFunctionLibrary::execIsOriginalMovieResolution", _context._utils.GetDirectAddress,
                     addr => _movieResHook = _hooks.CreateHook<IsOriginalMovieResolutionDelegate>(IsOriginalMovieResolutionImpl, addr).Activate());
         }
         public override void Register()
